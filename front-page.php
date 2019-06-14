@@ -65,7 +65,7 @@
                 <a href="">View Our Services</a>
             </div>
             <div class="col span-1-of-2 box">
-                <img src="/src/assets/images/back-massage.jpg" alt="">
+                <!-- <img src="/src/assets/images/back-massage.jpg" alt=""> -->
             </div>
         </div>
     </section>
