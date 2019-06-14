@@ -20,5 +20,10 @@ get_header(); ?>
 		</main>
 		<?php get_sidebar(); ?>
 	</div>
+	
 </div>
+<h1>Test single</h1>
+<?php get_template_part('template-parts/content-single'); ?>
+
+
 <?php get_footer();
