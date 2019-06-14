@@ -1,0 +1,193 @@
+/*
+FONTS
+*/
+
+@font-face {
+    font-family: Futura;
+    font-weight: normal;
+    src: url('../../fonts/Futura.ttc') format('TTC');
+  }
+ 
+  @font-face {
+    font-family: HelveticaNeue; 
+    font-weight: bold;
+    src: url('../../fonts/HelveticaNeue-Bold.otf') format('OTF');
+  }
+
+  @font-face {
+    font-family: HelveticaNeue; 
+    font-weight: medium;
+    src: url('../../fonts/HelveticaNeue.ttc') format('TTC');
+  }
+
+/*
+GLOBAL
+*/
+
+body {
+    // background-color: #e1e1e1;
+    background-color: #e1e1e1;
+    font-family: HelveticaNeue;
+    font-weight: medium;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%
+}
+
+html {
+    font-size: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  // pre {
+  //   background: white;
+  //   margin: 1em;
+  //   padding: 1em;
+  // }
+  
+  a {
+    text-decoration: none;
+    color: inherit
+  }
+  
+  a:hover {
+    color: #E55B1C
+  }
+
+/*
+FONTS
+*/
+
+  
+.header {
+    position: fixed;
+    width: 125px;
+    background: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.25);
+    color: #999;
+}
+  
+  
+  
+  .header ul {
+    list-style-type: none;
+    width: inherit;
+  }
+  
+  .header ul li {
+    padding: 0 12px 3px 0;
+    white-space: nowrap;
+    font-size: 0.98em;
+    font-weight: 700;
+    text-align: right;
+  }
+  
+//   .head footer {}
+  
+  .logo {
+    margin-top: 8vh;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .logo:hover {
+    background: #404040;
+  }
+  
+  .content {
+    font-size: 1.20em;
+    font-weight: 300;
+    margin-left: 126px;
+    padding-left: 0em;
+  }
+  
+  .hero {
+    min-height: 320px;
+    font-size: 1.6em;
+    text-align: left;
+    padding-right: 2%;
+  }
+
+  .hero h2 {
+    font-size: 2.20em;
+    font-family: Futura;
+    font-weight: normal;
+    margin-bottom: 100px;
+  }
+
+  h2:before {
+    display: block;
+    height: 3px;
+    background-color: #ff0000;
+    content: " ";
+    width: 180px;
+    // margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+  .heading {
+    padding-bottom: 40px;
+    font-size: 60px;
+    font-family: Futura;
+    font-weight: normal;
+  }
+
+  .dates {
+    font-family: HelveticaNeue;
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    #header {
+      height: 125px;
+      display: table;
+      width: 100%;
+    }
+    #header ul li {
+      display: inline;
+    }
+    #content  {
+      margin-left: 0;
+      margin-top: 125px;
+    }
+  }
+
+.top-bar, .top-bar ul {
+  background-color: transparent;
+  font-family: Futura;
+  font-weight: normal;
+}
+
+// .top-bar-left {
+//   color: green;
+// }
+
+.row {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
