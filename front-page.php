@@ -1,5 +1,15 @@
 <?php get_header() ?>
 
+<style type="text/css">
+    .img-team { 
+        background-image:url('<?php echo get_theme_mod( 'team_background_image' );?>'); 
+    }
+
+    .img-service { 
+        background-image:url('<?php echo get_theme_mod( 'service_background_image' );?>'); 
+    }
+</style>
+
     <section class="container-intro content">
         <div class="hero row">
             <h2>
@@ -26,7 +36,7 @@
 
      <section class="container-team content">
         <div class="row">
-            <div class="col span-1-of-2 box">
+            <div class="col span-1-of-2 box img-team">
                 <!-- <img src="src/assets/images/back-massage.jpg" alt="" class="img"> -->
             </div>
             <div class="col span-1-of-2 box">
@@ -64,7 +74,7 @@
                 </p>
                 <a href="">View Our Services</a>
             </div>
-            <div class="col span-1-of-2 box">
+            <div class="col span-1-of-2 box img-service">
                 <!-- <img src="/src/assets/images/back-massage.jpg" alt=""> -->
             </div>
         </div>

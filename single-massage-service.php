@@ -22,10 +22,7 @@ get_header(); ?>
 
                 <!-- <h1>Services</h1> -->
                 <p>
-                We are proud to offer a range of complementary therapies including
-                sports massage, pregnancy massage, myofascial release, remedial massage,
-                and therapeutic massage for chronic pain and muscular-skeletal injuries to
-                support your complete recovery.
+                    Hello test
                 </p>
                 <?php
                 $args = array(

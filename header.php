@@ -13,7 +13,7 @@
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -33,12 +33,8 @@
 		</div>
 
 		<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
-			<div class="top-bar-left">
-				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</div>
-			</div>
-			<div class="top-bar-right">
+			<!-- <div class="top-bar-right"> -->
+				<div class="top-bar-left">
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
@@ -46,9 +42,9 @@
 				<?php endif; ?>
 			</div>
 		</nav>
+</header>
 
-
-<div class="header">
+<!-- <div class="header">
 	  <h1 class="logo"></h1>
 	<div id="nav-container">
 		<div id="nav-overlay"></div>
@@ -67,17 +63,13 @@
 			<span></span>
 		</a>
 	</div>
-    <!-- <footer>
-      <a href="#"><img src="http://images.clipartpanda.com/envelope-png-envelope_outline-128.png" width="30" height="" alt="contact" /></a>
-    </footer> -->
-</div>
+</div> -->
 
 </body>
 
-</html>
+<!-- </html> -->
 
 
-	</header>
 
 
 
@@ -114,3 +106,7 @@
       <a href="#"><img src="http://images.clipartpanda.com/envelope-png-envelope_outline-128.png" width="30" height="" alt="contact" /></a>
     </footer>
   </div> -->
+
+
+
+
