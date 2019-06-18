@@ -30,22 +30,26 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</span>
 			</div>
-		</div>
+		</div>	
+		<div class="row">
+			<div class="col span-1-of-1">
+			<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
+					<!-- <div class="top-bar-right"> -->
+						<div class="top-bar-left">
+						<?php foundationpress_top_bar_r(); ?>
 
-		<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
-			<!-- <div class="top-bar-right"> -->
-				<div class="top-bar-left">
-				<?php foundationpress_top_bar_r(); ?>
-
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
+						<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
+							<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
+						<?php endif; ?>
+					</div>
+				</nav>
 			</div>
-		</nav>
+		</div>
 </header>
 
+
 <!-- <div class="header">
-	  <h1 class="logo"></h1>
+	  
 	<div id="nav-container">
 		<div id="nav-overlay"></div>
 		<nav id="nav-fullscreen">
@@ -56,12 +60,7 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-
-		<a id="nav-toggle">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
+		<h1 class="logo" id="nav-toggle"></h1>
 	</div>
 </div> -->
 

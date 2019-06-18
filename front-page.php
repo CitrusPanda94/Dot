@@ -37,7 +37,8 @@
      <section class="container-team content">
         <div class="row">
             <div class="col span-1-of-2 box img-team">
-                <!-- <img src="src/assets/images/back-massage.jpg" alt="" class="img"> -->
+            <a href="http://localhost:3000/massage/our-team/" class="btn">
+            </a>
             </div>
             <div class="col span-1-of-2 box">
                 <h2 class="heading">Our Team</h2>
@@ -52,7 +53,7 @@
                     therapists have an excellent standard of training and are dedicated to continuing
                     their professional development in order to maintain this standard.
                 </p>
-                <a href="">View Our Team</a>
+                <a href="http://localhost:3000/massage/our-team/" class="btn">View Our Team</a>
             </div>
         </div>
     </section>
@@ -72,7 +73,7 @@
                     therapists have an excellent standard of training and are dedicated to continuing
                     their professional development in order to maintain this standard.
                 </p>
-                <a href="">View Our Services</a>
+                <a href="http://localhost:3000/massage/service/" class="btn">View Our Services</a>
             </div>
             <div class="col span-1-of-2 box img-service">
                 <!-- <img src="/src/assets/images/back-massage.jpg" alt=""> -->
