@@ -42,16 +42,11 @@
             </div>
             <div class="col span-1-of-2 box">
                 <h2 class="heading">Our Team</h2>
-                <p>
-                    Our therapists pride themselves on the level of care that they provide.
-                    The quality of the treatments offered and the safety of our clients is of
-                    the utmost importance.
-                </p>
-                <p>
-                    We guarantee that you will be treated with care and
-                    consideration from the moment you arrive at CNC. As you can see below, our
-                    therapists have an excellent standard of training and are dedicated to continuing
-                    their professional development in order to maintain this standard.
+                <p class="team-text">
+                    <?php $blurb = get_theme_mod('massage_team_message_blurb');
+                    if($blurb || is_customize_preview()):
+                    echo wpautop($blurb);
+                    endif; ?>
                 </p>
                 <a href="http://localhost:3000/massage/our-team/" class="btn">View Our Team</a>
             </div>
@@ -62,16 +57,11 @@
         <div class="row">
             <div class="col span-1-of-2 box">
                 <h2 class="heading">Our Services</h2>
-                <p>
-                    Our therapists pride themselves on the level of care that they provide.
-                    The quality of the treatments offered and the safety of our clients is of
-                    the utmost importance.
-                </p>
-                <p>
-                    We guarantee that you will be treated with care and
-                    consideration from the moment you arrive at CNC. As you can see below, our
-                    therapists have an excellent standard of training and are dedicated to continuing
-                    their professional development in order to maintain this standard.
+                <p class="services-text">
+                    <?php $blurb = get_theme_mod('massage_service_message_blurb');
+                    if($blurb || is_customize_preview()):
+                    echo wpautop($blurb);
+                    endif; ?>
                 </p>
                 <a href="http://localhost:3000/massage/service/" class="btn">View Our Services</a>
             </div>

@@ -101,16 +101,5 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="container-services content">
-    <div class="row">
-        <div class="col span-1-of-2 box">
-           
-        </div>
-        <div class="col span-1-of-2 box">
-       
-        </div>
-    </div>
-</section>
-
 <?php
 get_footer(); ?>
