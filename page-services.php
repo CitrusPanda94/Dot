@@ -42,8 +42,8 @@ get_header(); ?>
 </section>
 
 <section class="container-services content">
-    <div class="grid-x">
-        <!-- <div class="col span-1-of-2 box"> -->
+    <div class="row">
+        <div class="grid-x">
             <?php
                 $args = array(
                     'post_type' => 'massage_service',
@@ -54,21 +54,24 @@ get_header(); ?>
                 if ($loop->have_posts()) : $count = 0;
                     while ($loop->have_posts()) :
                     $loop->the_post(); ?>
-                    <div class="cell medium-6">
-                        <h2>
-                            <a href="<?php echo site_url(); ?>/massage_service/<?php echo $post->post_name; ?>"><?php echo the_title(); ?></a>
-                        </h2>
-                        <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
+                    <div class="cell large-6">
+                        <a href="<?php echo site_url(); ?>/massage_service/<?php echo $post->post_name; ?>">    
+                            <div class="container">
+                                <img class="service-img" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
+                                <span><?php echo the_title(); ?></span>
+                            </div>
+                        </a>
                     </div>
                 <?php endwhile;
                 endif; ?>
-        <!-- </div> -->
+        </div>
     </div>
 </section>
-
-
 
 <?php
 get_footer(); ?>
 
 
+
+
+<h2><?php echo the_title(); ?></h2>

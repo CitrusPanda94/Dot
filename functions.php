@@ -60,9 +60,5 @@ require_once( 'library/custom-post-types.php' );
 /** customization API - Images */
 require_once( 'library/customization/customization.php' );
 
-// require_once get_template_directory() . '/inc/customization/customization.php';
-
-// require_once get_template_directory() . '/inc/template-parts/customization/customization.php';
-
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );

@@ -14,7 +14,7 @@ get_header(); ?>
 
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 
- <section class="container-services">
+ <section class="container-services content">
     <div class="row">
         <div class="col span-1-of-1 box">
             <h2 class="heading"><?php echo the_title() ?> Us</h2>
@@ -22,7 +22,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="container-services">
+<section class="container-services content">
     <div class="row">
         <div class="col span-1-of-2 box">
             <p>
@@ -31,72 +31,56 @@ get_header(); ?>
             </p>
             <p>
                 We have a cancellation policy that dictates that if you cancel your appointment within
-                24 hours, you must pay full price. Please understand our therapists are self-employed 
-                and this greatly impacts their ability to fill that time slot if you can not attend your appointment.
+                24 hours, you must pay full price.
             </p>
             <p>
-                If you have a query or prefer to book over the phone, send us an email at info@massage.co.nz or
-                flick us a text at 022 044 0942 and we'll get back to you as soon as possible.
+                Send us an email at <strong>info@massage.co.nz</strong> or
+                flick us a text at <strong>022 044 0942</strong> and we'll get back to you as soon as possible.
             </p>
             <p>
                 <strong>Mon - Fri 9am - 7pm<br>Sat - Sun 12pm - 7pm</strong>
             </p>
         </div>
         <div class="col span-1-of-2 box">
-        <section class="section-form">
-        <div class="row">
+        <!-- <section class="section-form">
+        <div class="row"> -->
             <form method="post" action="#" class="contact-form">
                 <div class="row">
-                    <!-- <div class="col span-1-of-3">
-                        <label for="name">Full Name</label>
-                    </div> -->
-                    <div class="col span-2-of-3">
+                    <div class="col span-3-of-3">
                         <label for="name">Full Name</label>
                         <input type="text" name="name" id="name" placeholder="Your name" required>
                     </div>
                 </div>
                 
                 <div class="row">
-                    <!-- <div class="col span-1-of-3">
-                        <label for="phone">Phone</label>
-                    </div> -->
-                    <div class="col span-2-of-3">
+                    <div class="col span-3-of-3">
                         <label for="phone">Phone</label>
                         <input type="text" name="phone" id="phone" placeholder="+64 00 000 0000" required>
                     </div>
                 </div>
 
                 <div class="row">
-                    <!-- <div class="col span-1-of-3">
-                        <label for="email">Email</label>
-                    </div> -->
-                    <div class="col span-2-of-3">
+                    <div class="col span-3-of-3">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Your email" required>
                     </div>
                 </div>
 
                 <div class="row">
-                    <!-- <div class="col span-1-of-3">
-                        <label>Message</label>
-                    </div> -->
-                    <div class="col span-2-of-3">
+                    <div class="col span-3-of-3">
                         <label>Message</label>
                         <textarea name="message" placeholder="Your message"></textarea>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" class="btn" value="Send it!">
+                    <div class="col span-1-of-1">
+                        <input type="submit" class="btn" value="Submit">
                     </div>
                 </div>
             </form>
-        </div>
-    </section>
+        <!-- </div>
+    </section> -->
         </div>
     </div>
 </section>

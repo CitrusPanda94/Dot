@@ -35,7 +35,7 @@
 			<div class="col span-1-of-1">
 			<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
 					<!-- <div class="top-bar-right"> -->
-						<div class="top-bar-left">
+						<div class="top-bar-left content">
 						<?php foundationpress_top_bar_r(); ?>
 
 						<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
@@ -63,6 +63,22 @@
 		<h1 class="logo" id="nav-toggle"></h1>
 	</div>
 </div> -->
+
+<div class="header">
+	  
+	  <div id="nav-container">
+		  <div id="nav-overlay"></div>
+		  <nav id="nav-fullscreen">
+			  <ul>
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">Blog</a></li>
+				  <li><a href="#">About</a></li>
+				  <li><a href="#">Contact</a></li>
+			  </ul>
+		  </nav>
+		  <h1 class="logo"></h1>
+	  </div>
+  </div>
 
 </body>
 

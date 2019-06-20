@@ -1,3 +1,6 @@
+// idea
+// https://codepen.io/ig_design/pen/VgaXaY
+
 /*
 FONTS
 */
@@ -51,11 +54,12 @@ html {
   
 a {
   text-decoration: none;
-  color: inherit
+  // color: inherit
+  color: #000;
 }
-  
+
 a:hover {
-  color: #ff0000;
+  color: #000;
 }
 
 /*
@@ -73,11 +77,10 @@ FONTS
     left: 0;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
+    // text-align: center;
+    // justify-content: space-between;
     align-items: center;
-    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.25);
-    color: #999;
+    // color: #999;
     // margin-right: 20px;
 }
   
@@ -102,16 +105,16 @@ FONTS
 
 
   
-  // .logo:hover {
-  //   background: #404040;
-  // }
+  .logo:hover {
+    background: #404040;
+  }
   
-  // .content {
-  //   font-size: 1.20em;
-  //   font-weight: 300;
-  //   margin-left: 126px;
-  //   padding-left: 0em;
-  // }
+  .content {
+    font-size: 1.20em;
+    font-weight: 300;
+    margin-left: 126px;
+    padding-left: 0em;
+  }
   
   .hero {
     min-height: 320px;
@@ -127,14 +130,12 @@ FONTS
     margin-bottom: 100px;
   }
 
-  h2:before {
+  h3:before {
     display: block;
     height: 3px;
     background-color: #ff0000;
     content: " ";
     width: 180px;
-    // margin: 0 auto;
-    // margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -164,9 +165,41 @@ FONTS
   font-weight: normal;
 }
 
-#menu-item-17 {
-  color: #ff0000;
+// #menu-item-17 {
+//   color: #ff0000;
+// }
+
+// .container {
+//   position: relative;
+// }
+
+// .text-block {
+//   position: absolute;
+//   bottom: 20px;
+//   right: 20px;
+//   color: white;
+//   // padding-left: 20px;
+//   // padding-right: 20px;
+// }
+
+.container {
+  position: relative; 
 }
+ 
+.container span {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: #fff;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+
+.container span:hover {
+  opacity: 1;
+}
+
 
 // .dropdown.menu a {
 //   padding: 0;
@@ -179,14 +212,25 @@ FONTS
 #menu-main a {
   padding: 0;
   padding-right: 30px;
+  transition: 0.2s;
+}
+
+#menu-main a:hover {
+  color: #ff0000;
+  transition: 0.2s;
 }
 
 
 .row {
   max-width: 1000px;
-  margin: 0 auto;
+  // margin-left: 100px;
+  // margin: 0 auto;
   margin-bottom: 30px;
 }
+
+// .service-img {
+//   max-width: 100%;
+// }
 
 .btn {
   font-family: Futura;
@@ -234,16 +278,44 @@ FONTS
   filter: grayscale(0); 
 }
 
-
-.team {
-  height: 50vh;
+.service-img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s; 
 }
 
+.service-img:hover {
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0); 
+}
+
+
+// .team {
+//   height: 50vh;
+// }
 
 .section-form div {
   width: 100%;
 }
 
+
+// Service Page - Content removed
+
+.updated {
+  display: none;
+}
+
+.author {
+  display: none;
+}
+
+// Service Page - Content removed - END
 
 
 // BEGIN NAV
@@ -281,7 +353,12 @@ $bar3-top: $bar2-top * 2;
   background: red;
   text-align: center;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:focus {
+  // transform: scale3d(1, 1, 1);
+  transform: scale(200);
 }
 
 #nav-overlay {

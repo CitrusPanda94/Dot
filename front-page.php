@@ -13,7 +13,7 @@
     <section class="container-intro content">
         <div class="hero row">
             <h2>
-            Quality therapeutic massage by qualified therapists to get you moving and feeling great!
+            Quality therapeutic massage by qualified therapists to get you moving and feeling great.
             </h2>
         </div>
 
@@ -41,7 +41,7 @@
             </a>
             </div>
             <div class="col span-1-of-2 box">
-                <h2 class="heading">Our Team</h2>
+                <h3 class="heading">Our Team</h3>
                 <p class="team-text">
                     <?php $blurb = get_theme_mod('massage_team_message_blurb');
                     if($blurb || is_customize_preview()):
@@ -56,7 +56,7 @@
      <section class="container-services content">
         <div class="row">
             <div class="col span-1-of-2 box">
-                <h2 class="heading">Our Services</h2>
+                <h3 class="heading">Our Services</h3>
                 <p class="services-text">
                     <?php $blurb = get_theme_mod('massage_service_message_blurb');
                     if($blurb || is_customize_preview()):
@@ -66,7 +66,6 @@
                 <a href="http://localhost:3000/massage/service/" class="btn">View Our Services</a>
             </div>
             <div class="col span-1-of-2 box img-service">
-                <!-- <img src="/src/assets/images/back-massage.jpg" alt=""> -->
             </div>
         </div>
     </section>
