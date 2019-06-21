@@ -17,7 +17,7 @@ get_header(); ?>
  <section class="container-services content">
     <div class="row">
         <div class="col span-1-of-1 box">
-            <h2 class="heading"><?php echo the_title() ?></h2>
+            <h3 class="heading"><?php echo the_title() ?></h3>
         </div>
     </div>
 </section>
@@ -57,8 +57,10 @@ get_header(); ?>
                     <div class="cell large-6">
                         <a href="<?php echo site_url(); ?>/massage_service/<?php echo $post->post_name; ?>">    
                             <div class="container">
-                                <img class="service-img" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
-                                <span><?php echo the_title(); ?></span>
+                                <img class="image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
+                                <div class="text">
+                                    <div><?php echo the_title(); ?></div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -70,8 +72,3 @@ get_header(); ?>
 
 <?php
 get_footer(); ?>
-
-
-
-
-<h2><?php echo the_title(); ?></h2>

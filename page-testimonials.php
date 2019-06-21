@@ -17,7 +17,7 @@ get_header(); ?>
  <section class="container-services content">
     <div class="row">
         <div class="col span-1-of-1 box">
-            <h2 class="heading"><?php echo the_title() ?></h2>
+            <h3 class="heading"><?php echo the_title() ?></h3>
         </div>
     </div>
 </section>

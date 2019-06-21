@@ -17,7 +17,7 @@ get_header(); ?>
  <section class="container-services content">
     <div class="row">
         <div class="col span-1-of-1 box">
-            <h2 class="heading"><?php echo the_title() ?></h2>
+            <h3 class="heading"><?php echo the_title() ?></h3>
         </div>
     </div>
 </section>
@@ -53,9 +53,9 @@ get_header(); ?>
                     while ($loop->have_posts()) :
                     $loop->the_post(); ?>
                     <div class="cell large-6">
-                        <img class="service-img" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
-                        <?php get_template_part( 'template-parts/content', '' ); ?>
-                    </div>
+                            <img class="image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
+                            <?php get_template_part( 'template-parts/content', '' ); ?>
+                        </div>
                 <?php endwhile;
                 endif; ?>
         </div>

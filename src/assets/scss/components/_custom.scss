@@ -28,7 +28,6 @@ GLOBAL
 */
 
 body {
-    // background-color: #e1e1e1;
     background-color: #e1e1e1;
     font-family: HelveticaNeue;
     font-weight: medium;
@@ -104,7 +103,6 @@ FONTS
  
 
 
-  
   .logo:hover {
     background: #404040;
   }
@@ -123,20 +121,28 @@ FONTS
     padding-right: 2%;
   }
 
-  .hero h2 {
+  .hero h3 {
     font-size: 2.20em;
     font-family: Futura;
     font-weight: normal;
     margin-bottom: 100px;
   }
 
-  h3:before {
+h3:before {
     display: block;
     height: 3px;
     background-color: #ff0000;
     content: " ";
     width: 180px;
     margin-bottom: 40px;
+}
+
+h2:before {
+  display: block;
+  height: 3px;
+  content: " ";
+  width: 180px;
+  margin-bottom: 40px;
 }
 
   .heading {
@@ -182,23 +188,62 @@ FONTS
 //   // padding-right: 20px;
 // }
 
+
+
+
+// SERVICES PAGE HOVER EFFECTS
+
 .container {
   position: relative; 
 }
- 
-.container span {
+
+.image {
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  display: block;
+  // width: 100%;
+  height: auto;
+  transition: .5s ease;
+  // backface-visibility: hidden;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s; 
+}
+
+.image:hover {
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0); 
+}
+
+.text {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text div {
+  font-family: Futura;
+  font-weight: normal;
+  color: white;
+  font-size: 16px;
   position: absolute;
   bottom: 20px;
   left: 30px;
-  color: #fff;
-  opacity: 0;
-  transition: .5s ease-in-out;
 }
 
-
-.container span:hover {
+.container:hover .text {
   opacity: 1;
 }
+
+// SERVICES PAGE HOVER EFFECTS END
 
 
 // .dropdown.menu a {
@@ -228,16 +273,30 @@ FONTS
   margin-bottom: 30px;
 }
 
-// .service-img {
-//   max-width: 100%;
-// }
-
 .btn {
   font-family: Futura;
   font-weight: normal;
   color: #ff0000;
   border: none;
   background: none;
+}
+
+.btn-right {
+  float: right;
+}
+
+.right {
+  text-align: right;
+  align-content: right;
+}
+
+header .entry-title {
+  font-family: Futura;
+  font-weight: normal;
+}
+
+.display-image img {
+  width: 100%;
 }
 
 //Homepage images - CUSTOM API
@@ -278,22 +337,7 @@ FONTS
   filter: grayscale(0); 
 }
 
-.service-img {
-  background-size: cover;
-  background-position: center;
-  -webkit-filter: grayscale(1); 
-  filter: grayscale(1); 
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s; 
-}
 
-.service-img:hover {
-  -webkit-filter: grayscale(0); 
-  filter: grayscale(0); 
-}
 
 
 // .team {
