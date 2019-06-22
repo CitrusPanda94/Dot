@@ -66,23 +66,7 @@ FONTS
 */
 
   
-// .header {
-//     z-index: 1;
-//     position: fixed;
-//     // width: 125px;
-//     width: 80px;
-//     background: white;
-//     top: 0;
-//     bottom: 0;
-//     left: 0;
-//     display: flex;
-//     flex-direction: column;
-//     // text-align: center;
-//     // justify-content: space-between;
-//     align-items: center;
-//     // color: #999;
-//     // margin-right: 20px;
-// }
+
   
   
   
@@ -430,7 +414,7 @@ header .entry-title {
     opacity: 1;
   }
   .hero {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .image {
     margin: 0;
@@ -485,6 +469,9 @@ header .entry-title {
   .image {
     margin: 0;
   }
+  .logo {
+    margin: 0;
+  }
 }
 
 /* Small phones: from 0 to 480px */
@@ -506,16 +493,29 @@ $bar-space: ($toggle-size - ($bar-size * 5)) / 2;
 $bar2-top: $bar-size + $bar-space;
 $bar3-top: $bar2-top * 2;
 
-#nav-toggle {
-	display: block;
-	cursor: pointer;
-	transform: rotate(0deg);
-}
+// #nav-toggle {
+// 	display: block;
+// 	cursor: pointer;
+// 	transform: rotate(0deg);
+// }
+
+// .sidebar-nav {
+//   z-index: 1;
+//   position: fixed;
+//   width: 80px;
+//   background: white;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
 
 .logo {
-	width: 100%;
-	height: $bar-size;
-	border-radius: $bar-size / 4;
+	// width: 100%;
+	// height: $bar-size;
+	// border-radius: $bar-size / 4;
 	display: block;
 	position: absolute;
 	left: 0;
@@ -544,11 +544,10 @@ $bar3-top: $bar2-top * 2;
 }
 
 #nav-overlay {
-  // margin-top: 8vh;
   z-index: 1;
 	position: absolute;
-	// top: $toggle-size / 1;
-	// left: $toggle-size / 1;
+	top: $toggle-size / 1;
+  left: $toggle-size / 6;
   background: #e10000;
 	border-radius: 50%;
 	transition: 1s;

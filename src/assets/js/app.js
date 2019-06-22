@@ -64,7 +64,7 @@ $(document).ready(function() {
 
     resizeNav();
 	
-	window.setTimeout(function() {
-		 $("#nav-toggle").click();
-	}, 1000)
+	// window.setTimeout(function() {
+	// 	 $("#nav-toggle").click();
+	// }, 1000)
 });

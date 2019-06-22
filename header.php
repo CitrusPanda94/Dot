@@ -54,9 +54,7 @@
 			
 			</div>
 		</div>
-</header>
-
-<div class="header">
+		<div class="sidebar-nav">
 	<div id="nav-container">
 		<div id="nav-overlay"></div>
 		<nav id="nav-fullscreen">
@@ -72,57 +70,5 @@
 		<!-- <h1 class="logo" id="nav-toggle"></h1> -->
 	</div>
 </div>
+</header>
 
-<!-- <div class="header">
-	  
-	  <div id="nav-container">
-		  <div id="nav-overlay"></div>
-		  <nav id="nav-fullscreen">
-			  <ul>
-				  <li><a href="#">Home</a></li>
-				  <li><a href="#">Blog</a></li>
-				  <li><a href="#">About</a></li>
-				  <li><a href="#">Contact</a></li>
-			  </ul>
-		  </nav>
-		  <h1 class="logo"></h1>
-	  </div>
-  </div>
-
-</body> -->
-
-<!-- </html> -->
-
-<!-- 
-	<div class="header">
-    <h1 class="logo"></h1>
-    <nav role='navigation' class='primary-nav' id="nav-fullscreen">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-	</nav>
-	
-	<div id="nav-container">
-			<div id="nav-overlay"></div>
-			<nav id="nav-fullscreen">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-
-			<a id="nav-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
-	</div>
-    <footer>
-      <a href="#"><img src="http://images.clipartpanda.com/envelope-png-envelope_outline-128.png" width="30" height="" alt="contact" /></a>
-    </footer>
-  </div> -->
