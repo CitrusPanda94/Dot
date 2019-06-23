@@ -35,7 +35,7 @@
      <section class="container-team content">
         <div class="row">
             <div class="col span-1-of-2 box img-team">
-            <a href="http://localhost:3000/massage/our-team/" class="btn">
+            <a href="http://localhost:3000/massage/our-team/" class="btn" rel="noreferrer">
             </a>
             </div>
             <div class="col span-1-of-2 box">
@@ -46,7 +46,7 @@
                     echo wpautop($blurb);
                     endif; ?>
                 </p>
-                <a href="http://localhost:3000/massage/our-team/" class="btn">View Our Team</a>
+                <a href="http://localhost:3000/massage/our-team/" class="btn" rel="noreferrer">View Our Team</a>
             </div>
         </div>
     </section>
@@ -61,7 +61,7 @@
                     echo wpautop($blurb);
                     endif; ?>
                 </p>
-                <a href="http://localhost:3000/massage/service/" class="btn">View Our Services</a>
+                <a href="http://localhost:3000/massage/service/" class="btn" rel="noreferrer">View Our Services</a>
             </div>
             <div class="col span-1-of-2 box img-service">
             </div>

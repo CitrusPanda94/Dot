@@ -16,7 +16,7 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', '' ); ?>
 				<?php comments_template(); ?>
 				<?php endwhile; ?>
-				<a href="http://localhost:3000/massage/service/" class="btn">Back</a>
+				<a href="http://localhost:3000/massage/service/" class="btn" rel="noreferrer">Back</a>
 			</main>
 		</div>
 		<div class="col span-1-of-2 display-image">
@@ -30,7 +30,7 @@ get_header(); ?>
 		<div class="col span-1-of-2">
 		</div>
 		<div class="col span-1-of-2">
-			<a href="http://localhost:3000/massage/service/" class="btn btn-right">Make Appointment</a>
+			<a href="http://localhost:3000/massage/service/" class="btn btn-right" rel="noreferrer">Make Appointment</a>
 		</div>
 	</div>
 </section>

@@ -55,7 +55,7 @@ get_header(); ?>
                     while ($loop->have_posts()) :
                     $loop->the_post(); ?>
                     <div class="cell large-6">
-                        <a href="<?php echo site_url(); ?>/massage_service/<?php echo $post->post_name; ?>">    
+                        <a href="<?php echo site_url(); ?>/massage_service/<?php echo $post->post_name; ?>" rel="noreferrer">    
                             <div class="container">
                                 <img class="image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo $post->post_name; ?>" />
                                 <div class="text">
