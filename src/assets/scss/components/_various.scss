@@ -1,0 +1,103 @@
+// Various Styles
+
+.section-form div {
+  width: 100%;
+}
+
+
+
+// Service Page - Content removed
+
+.updated {
+  display: none;
+}
+
+.author {
+  display: none;
+}
+
+
+
+// Names of staff
+
+header .entry-title {
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
+}
+
+
+
+// Text on front page
+
+.hero {
+  min-height: 320px;
+  font-size: 1.6em;
+  text-align: left;
+  padding-right: 2%;
+}
+
+.hero h3 {
+  font-size: 2.20em;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
+  // margin-bottom: 100px;
+}
+
+
+// Dates on front page - bold
+
+.dates {
+  font-family: HelveticaNeue, 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+// Heading Styles - red line
+
+.heading {
+  padding-bottom: 40px;
+  font-size: 60px;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
+}
+
+h3:before {
+  display: block;
+  height: 3px;
+  background-color: #ff0000;
+  content: " ";
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+h2:before {
+  display: block;
+  height: 3px;
+  content: " ";
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+.blurb {
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
+  font-size: 20px;
+}
+
+// Grid content - left
+
+// .content {
+// 	margin-left: 126px;
+// 	padding-left: 0em;
+// }
+
+
+
+
+
+// .row {
+// 	max-width: 1000px;
+// 	margin-bottom: 30px;
+// }

@@ -1,93 +1,99 @@
 //Homepage images - CUSTOM API
 
 .img-team {
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    -webkit-filter: grayscale(1); 
-    filter: grayscale(1); 
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s; 
-  }
-  
-  .img-team:hover {
-    -webkit-filter: grayscale(0); 
-    filter: grayscale(0); 
-  }
-  
-  .img-service {
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    -webkit-filter: grayscale(1); 
-    filter: grayscale(1); 
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s; 
-  }
-  
-  .img-service:hover {
-    -webkit-filter: grayscale(0); 
-    filter: grayscale(0); 
-  }
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s; 
+}
 
+.img-team:hover {
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0); 
+}
 
+.img-service {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s; 
+}
 
-  // SERVICES PAGE HOVER EFFECTS
+.img-service:hover {
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0); 
+}
+
+// Service Page Img
+
+.display-image img {
+  width: 100%;
+}
+
+// SERVICES PAGE HOVER EFFECTS
 
 .container {
-    position: relative; 
-  }
-  
-  .image {
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-    display: block;
-    // width: 100%;
-    height: auto;
-    transition: .5s ease;
-    // backface-visibility: hidden;
-    -webkit-filter: grayscale(1); 
-    filter: grayscale(1); 
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s; 
-  }
-  
-  .image:hover {
-    -webkit-filter: grayscale(0); 
-    filter: grayscale(0); 
-  }
-  
-  .text {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .text div {
-    font-family: 'Futura', 'Nunito Sans', sans-serif;
-    font-weight: normal, 700;
-    color: white;
-    font-size: 16px;
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-  }
-  
-  .container:hover .text {
-    opacity: 1;
-  }
-  
-  // SERVICES PAGE HOVER EFFECTS END
+  position: relative; 
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  display: block;
+  // width: 100%;
+  height: auto;
+  transition: .5s ease;
+  // backface-visibility: hidden;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s; 
+}
+
+.image:hover {
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0); 
+}
+
+.text {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text div {
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+
+// SERVICES PAGE HOVER EFFECTS END
+
+

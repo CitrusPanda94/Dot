@@ -37,12 +37,15 @@
 		<div class="row">
 			<div class="col span-1-of-1">
 			<nav class="site-navigation top-bar" id="<?php foundationpress_mobile_menu_id(); ?>">
-				 <div class="top-bar-left">
-                <div class="site-desktop-title top-bar-title content">
+				<div class="top-bar-left">
+					<div class="site-desktop-title top-bar-title">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h1 class="logo" id="nav-toggle"></h1></a>
+					</div>
+				</div>
+                <div class="site-desktop-title top-bar-title">
+					<!-- <h1 class="logo" id="nav-toggle"></h1> -->
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
-					<h1 class="logo" id="nav-toggle"></h1>
                 </div>
-            </div>
             <div class="top-bar-right">
                 <?php foundationpress_top_bar_r(); ?>
 
@@ -60,21 +63,19 @@
 		<div id="nav-overlay"></div>
 		<nav id="nav-fullscreen">
 			<style>
-			
-			#nav-fullscreen .menu {
-			padding: 0;
-			margin: 0;
-			list-style: none;
-			position: relative;
-			display: block !important;
-			display: -webkit-flex;
-			display: -ms-flexbox;
-			display: flex;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
-			}
-
+				#nav-fullscreen .menu {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				position: relative;
+				display: block !important;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+				}
 			</style>
 			<?php foundationpress_top_bar_r(); ?>
 		</nav>

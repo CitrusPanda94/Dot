@@ -10,9 +10,11 @@
     }
 </style>
 
-    <section class="container-intro content">
-        <div class="hero">
-            <h3>Quality therapeutic massage by qualified therapists to get you moving and feeling great.</h3>
+    <section class="container content">
+        <div class="row">
+            <div class="col hero">
+                <h3>Quality therapeutic massage by qualified therapists to get you moving and feeling great.</h3>
+            </div>
         </div>
 
         <div class="row">

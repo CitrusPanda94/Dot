@@ -22,11 +22,6 @@
     clear:both;
 }
 
-.row {
-	max-width: 1000px;
-	margin-bottom: 30px;
-}
-
 /*  GRID COLUMN SETUP   ==================================================================== */
 
 .col {
@@ -691,4 +686,12 @@
 	.span-1-of-12 {
 		width: 100%; 
 	}
+}
+
+.cell {
+	padding-bottom: 10px;
+}
+
+.cell article {
+	width: 90%;
 }
