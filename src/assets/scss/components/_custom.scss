@@ -1,46 +1,18 @@
 // idea
 // https://codepen.io/ig_design/pen/VgaXaY
 
-/*
-FONTS
-*/
 
-@font-face {
-    font-family: Futura;
-    font-weight: normal;
-    src: url('../../fonts/Futura-Medium/fonts/Futura.ttf') format('TTF'),
-         url('../../fonts/Futura-Medium/fonts/Futura.woff2') format("woff2"),
-         url('../../fonts/Futura-Medium/fonts/Futura.woff') format("woff");
-  }
- 
-  @font-face {
-    font-family: HelveticaNeue; 
-    font-weight: bold;
-    src: url('../../fonts/HelveticaNeue-Bold/fonts/HelveticaNeue-Bold.ttf') format('TTF'),
-         url('../../fonts/HelveticaNeue-Bold/fonts/HelveticaNeue-Bold.woff2') format("woff2"),
-         url('../../fonts/HelveticaNeue-Bold/fonts/HelveticaNeue-Bold.woff') format("woff");
-  }
-
-  @font-face {
-    font-family: HelveticaNeue; 
-    font-weight: medium;
-    src: url('../../fonts/HelveticaNeue/fonts/HelveticaNeue.ttf') format('TTF'),
-         url('../../fonts/HelveticaNeue/fonts/HelveticaNeue.woff2') format("woff2"),
-         url('../../fonts/HelveticaNeue/fonts/HelveticaNeue.woff') format("woff");
-  }
-
-  
 /*
 GLOBAL
 */
 
 body {
     background-color: #e1e1e1;
-    font-family: 'HelveticaNeue', sans-serif;
+    font-family: 'HelveticaNeue', 'Montserrat', sans-serif;
     font-weight: medium;
     margin: 0;
     padding: 0;
-}
+}x
 
 .circle {
     width: 20px;
@@ -68,19 +40,12 @@ a:hover {
   color: #000;
 }
 
-/*
-FONTS
-*/
-
-  
 
   .logo:hover {
     background: #404040;
   }
   
   .content {
-    // font-size: 1.20em;
-    // font-weight: 300;
     margin-left: 126px;
     padding-left: 0em;
   }
@@ -94,8 +59,8 @@ FONTS
 
   .hero h3 {
     font-size: 2.20em;
-    font-family: Futura;
-    font-weight: normal;
+    font-family: 'Futura', 'Nunito Sans', sans-serif;
+    font-weight: normal, 700;
     margin-bottom: 100px;
   }
 
@@ -119,36 +84,30 @@ h2:before {
   .heading {
     padding-bottom: 40px;
     font-size: 60px;
-    font-family: Futura;
-    font-weight: normal;
+    font-family: 'Futura', 'Nunito Sans', sans-serif;
+    font-weight: normal, 700;
   }
 
   .dates {
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeue, 'Montserrat', sans-serif;
     font-weight: bold;
   }
 
 
 .blurb {
-  font-family: Futura;
-  font-weight: normal;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
   font-size: 20px;
 }
 
 
 .top-bar, .top-bar ul {
   background-color: transparent;
-  font-family: Futura;
-  font-weight: normal;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
 }
 
-.cell {
-  padding-bottom: 10px;
-}
 
-.cell article {
-  width: 90%;
-}
 
 .title-bar {
   background: transparent;
@@ -163,67 +122,13 @@ h2:before {
 }
 
 .logo-text {
-  font-family: Futura;
-  font-weight: normal;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
 }
 
 .menu .is-active > a {
   background: #ff0000;
 }
-
-// SERVICES PAGE HOVER EFFECTS
-
-.container {
-  position: relative; 
-}
-
-.image {
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  display: block;
-  // width: 100%;
-  height: auto;
-  transition: .5s ease;
-  // backface-visibility: hidden;
-  -webkit-filter: grayscale(1); 
-  filter: grayscale(1); 
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s; 
-}
-
-.image:hover {
-  -webkit-filter: grayscale(0); 
-  filter: grayscale(0); 
-}
-
-.text {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.text div {
-  font-family: Futura;
-  font-weight: normal;
-  color: white;
-  font-size: 16px;
-  position: absolute;
-  bottom: 20px;
-  left: 30px;
-}
-
-.container:hover .text {
-  opacity: 1;
-}
-
-// SERVICES PAGE HOVER EFFECTS END
 
 #mobile-menu {
   padding: 0;
@@ -241,79 +146,18 @@ h2:before {
 }
 
 
-.row {
-  max-width: 1000px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  font-family: Futura;
-  font-weight: normal;
-  color: #ff0000;
-  border: none;
-  background: none;
-}
-
-.btn-right {
-  float: right;
-}
-
-.right {
-  text-align: right;
-  align-content: right;
-}
-
 header .entry-title {
-  font-family: Futura;
-  font-weight: normal;
+  font-family: 'Futura', 'Nunito Sans', sans-serif;
+  font-weight: normal, 700;
 }
 
 .display-image img {
   width: 100%;
 }
 
-//Homepage images - CUSTOM API
-
-.img-team {
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  -webkit-filter: grayscale(1); 
-  filter: grayscale(1); 
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s; 
-}
-
-.img-team:hover {
-  -webkit-filter: grayscale(0); 
-  filter: grayscale(0); 
-}
-
-.img-service {
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  -webkit-filter: grayscale(1); 
-  filter: grayscale(1); 
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s; 
-}
-
-.img-service:hover {
-  -webkit-filter: grayscale(0); 
-  filter: grayscale(0); 
-}
-
 .section-form div {
   width: 100%;
 }
-
 
 // Service Page - Content removed
 
@@ -324,162 +168,3 @@ header .entry-title {
 .author {
   display: none;
 }
-
-/* Big tablets to 1200px (widths smaller than the 1140px row in css document */
-@media only screen and (max-width: 1200px) {
-  .hero-text-box {
-      width: 100%;
-      padding: 0 2%;
-  }
-  .text {
-    opacity: 1;
-  }
-  .hero {
-    font-size: 1.3em;
-  }
-}
-
-/* Small tablets to big tablets: from 768px to 1023px */
-@media only screen and (max-width: 1023px) {
-  body {
-      font-size: 18px;
-  }
-  section {
-      padding: 60px 0;
-  }
-  .contact-form {
-      width: 80%;
-  }
-}
-
-
-/* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) {
-  body {
-      font-size: 16px;
-  }
-  section {
-      padding: 30px 0;
-  }
-  .col {
-      width: 100%;
-      margin: 0 0 4% 0;
-  }
-  .main-nav {
-      display: none;
-  }
-  h1 {
-      font-size: 180%;
-  }
-  h2 {
-      font-size: 150%;
-  }
-  .content {
-    margin-left: 0;
-    margin: 3px;
-  }
-  .text {
-    opacity: 1;
-  }
-  .hero {
-    font-size: 1em;
-  }
-  .image {
-    margin: 0;
-  }
-  .logo {
-    margin: 0;
-  }
-  #menu-main {
-    margin-left: 80px;
-  }
-}
-
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-  section {
-      padding: 25px 0;
-  }
-  .contact-form {
-      width: 100%;
-  }
-}
-
-// BEGIN NAV
-
-$toggle-size: 32px;
-$bar-size: $toggle-size / 8;
-$bar-space: ($toggle-size - ($bar-size * 5)) / 2;
-
-$bar2-top: $bar-size + $bar-space;
-$bar3-top: $bar2-top * 2;
-
-.logo {
-	display: block;
-	position: absolute;
-	left: 0;
-	content: '';
-	// transition time and time function
-	transition: .5s ease-in-out;
-}
-
-.logo {
-  z-index: 3;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background: #ff0000;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  margin-left: 45px;
-}
-
-#nav-overlay {
-  z-index: 1;
-	position: absolute;
-	top: $toggle-size / 1;
-  left: $toggle-size / 6;
-  background: #e10000;
-	border-radius: 50%;
-	transition: 1s;
-	transform: scale3d(0, 0, 0);
-}
-
-#nav-overlay.open {
-	transform: scale3d(1, 1, 1);
-}
-
-#nav-fullscreen {
-  z-index: 2;
-	width: 90vw;
-	position: fixed;
-	// left: 0;
-	// top: 0;
-	transition: ease-in-out 0.25s;
-  transition-delay: 0s;
-	visibility: hidden;
-	opacity: 0;
-
-	ul {
-    font-size: 50px;
-    font-family: Futura;
-    font-weight: normal;
-    text-align: right;
-		list-style: none;
-	}
-
-	a {
-		color: white;
-		text-decoration: none;
-	}
-}
-
-#nav-fullscreen.open {
-	visibility: visible;
-	opacity: 1;
-	transition: ease-in-out 0.5s;
-	transition-delay: 0.25s;
-}
-
-// END NAV

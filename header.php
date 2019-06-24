@@ -54,13 +54,29 @@
 			
 			</div>
 		</div>
+
 		<div class="sidebar-nav">
-	<div id="nav-container">
+		<div id="nav-container">
 		<div id="nav-overlay"></div>
 		<nav id="nav-fullscreen">
-			<ul>
-				<li><a href="<?php foundationpress_top_bar_r(); ?>" rel="noreferrer"></a></li>
-			</ul>
+			<style>
+			
+			#nav-fullscreen .menu {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			position: relative;
+			display: block !important;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			}
+
+			</style>
+			<?php foundationpress_top_bar_r(); ?>
 		</nav>
 		<!-- <h1 class="logo" id="nav-toggle"></h1> -->
 	</div>

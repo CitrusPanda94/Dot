@@ -30,7 +30,7 @@ get_header(); ?>
 		<div class="col span-1-of-2">
 		</div>
 		<div class="col span-1-of-2">
-			<a href="http://localhost:3000/massage/service/" class="btn btn-right" rel="noreferrer">Make Appointment</a>
+			<a href="http://localhost:3000/massage/make-appointment/" class="btn btn-right" rel="noreferrer">Make Appointment</a>
 		</div>
 	</div>
 </section>

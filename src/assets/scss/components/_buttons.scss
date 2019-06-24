@@ -1,8 +1,27 @@
-.sites-button {
-  background: $primary-color;
-  font-size: 1.25rem;
-  font-weight: bold;
-  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
-  border-radius: 3px;
-  border: none;
+.btn {
+    font-family: 'Futura', 'Nunito Sans', sans-serif;
+    font-weight: normal, 700;
+    color: #ff0000;
+    border: none;
+    background: none;
 }
+
+.btn-right {
+    float: right;
+}
+
+.right {
+    text-align: right;
+    align-content: right;
+}
+
+
+.sites-button {
+    background: $primary-color;
+    font-size: 1.25rem;
+    font-weight: bold;
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+    border-radius: 3px;
+    border: none;
+  }
+  
