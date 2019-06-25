@@ -17,6 +17,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	<h1 class="logo logo-mobile" id="nav-toggle"></h1>
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
 	<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
@@ -39,8 +40,9 @@
 			<nav class="site-navigation top-bar" id="<?php foundationpress_mobile_menu_id(); ?>">
 				<div class="top-bar-left">
 					<div class="site-desktop-title top-bar-title">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h1 class="logo" id="nav-toggle"></h1></a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 					</div>
+
 				</div>
                 <div class="site-desktop-title top-bar-title">
 					<!-- <h1 class="logo" id="nav-toggle"></h1> -->

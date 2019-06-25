@@ -15,7 +15,8 @@ a {
 
 
 #mobile-menu {
-    padding: 0;
+    // margin-left: 110px;
+    margin-left: 45px;
   }
   
   #menu-main a {
@@ -27,6 +28,18 @@ a {
   #menu-main a:hover {
     color: #ff0000;
     transition: 0.2s;
+  }
+
+  .top-bar-left {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
   
 // Mobile View
